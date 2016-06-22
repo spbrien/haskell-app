@@ -25,9 +25,6 @@ executable blog
                      , text
                      , bytestring
                      , blaze-html
-                     , persistent
-                     , persistent-template
-                     , persistent-sqlite
                      , monad-logger
                      , transformers
                      , wai-middleware-static
