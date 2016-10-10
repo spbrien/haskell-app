@@ -7,10 +7,10 @@ import Text.Blaze.Html5.Attributes as A
 
 import qualified Components.Article
 
-render :: Components.Article.BlogArticle -> Html
-render theThing = H.html $ do
+renderArticle :: Components.Article.BlogArticle -> Html
+renderArticle articleData = H.html $ do
     H.head $ do
         H.title "Page Title"
     H.body $ do
-        Components.Article.article theThing
+        Components.Article.article articleData
 

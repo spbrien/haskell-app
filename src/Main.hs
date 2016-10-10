@@ -20,4 +20,4 @@ main = do
     middleware logStdoutDev
     get "/" $ do
         blaze $ do
-            Views.Index.render art
+            Views.Index.renderArticle art
